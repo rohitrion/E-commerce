@@ -1,0 +1,27 @@
+.categoryNav{
+    @apply
+    flex
+    py-2
+    max-w-7xl
+    mx-auto
+    bg-transparent
+    rounded-lg
+    overflow-x-auto
+    sm:justify-start
+    md:justify-center
+    bg-red-700
+    font-semibold
+
+}
+.categoryLink{
+    @apply
+    text-black
+    hover:border-x-4
+    hover:bg-purple-500
+    px-6
+    py-2
+    flex
+    mx-10
+    bg-yellow-100
+    font-bold
+}
